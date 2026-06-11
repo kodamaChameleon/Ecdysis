@@ -190,9 +190,9 @@
 .markdown-rendered h6 { text-shadow: 0 0  6px rgba(51, 255, 75, 0.20); }
 
 /* Live preview / source mode heading glow */
-.cm-header-1 { text-shadow: 0 0 14px rgba(51, 255, 75, 0.45) !important; }
-.cm-header-2 { text-shadow: 0 0 10px rgba(51, 255, 75, 0.35) !important; }
-.cm-header-3 { text-shadow: 0 0  8px rgba(51, 255, 75, 0.28) !important; }
+.cm-editor .cm-header-1 { text-shadow: 0 0 14px rgba(51, 255, 75, 0.45); }
+.cm-editor .cm-header-2 { text-shadow: 0 0 10px rgba(51, 255, 75, 0.35); }
+.cm-editor .cm-header-3 { text-shadow: 0 0  8px rgba(51, 255, 75, 0.28); }
 
 
 /* ============================================================
@@ -328,15 +328,14 @@ s, del, .cm-strikethrough {
 .markdown-rendered a.internal-link,
 .markdown-rendered a.external-link {
   color: var(--clr-magenta);
-  text-decoration: underline;
-  text-decoration-color: rgba(223, 64, 254, 0.45);
+  text-decoration: underline rgba(223, 64, 254, 0.45);
   text-underline-offset: 3px;
 }
 
 .markdown-rendered a.internal-link:hover,
 .markdown-rendered a.external-link:hover {
   color: #e96aff;
-  text-decoration-color: #e96aff;
+  text-decoration: underline #e96aff;
   text-shadow: 0 0 8px rgba(223, 64, 254, 0.45);
 }
 
@@ -445,14 +444,14 @@ s, del, .cm-strikethrough {
 }
 
 /* Cursor / caret */
-.cm-cursor {
-  border-left-color: var(--clr-green) !important;
+.cm-editor .cm-cursor {
+  border-left-color: var(--clr-green);
 }
 
 /* Selection in editor */
-.cm-selectionBackground,
-.cm-selectionBackground .cm-selectionBackground {
-  background: rgba(223, 64, 254, 0.22) !important;
+.cm-editor .cm-selectionBackground,
+.cm-editor .cm-selectionBackground .cm-selectionBackground {
+  background: rgba(223, 64, 254, 0.22);
 }
 
 
