@@ -59,7 +59,9 @@ Both fonts are loaded from Google Fonts and require an internet connection on fi
 
 ### From the community theme browser
 
-*Not yet submitted.*
+1. In Obsidian: **Settings → Appearance → Themes → Manage**
+2. Search for **Ecdysis**
+3. Click **Install and use**
 
 ---
 
