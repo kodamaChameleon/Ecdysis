@@ -1,4 +1,13 @@
-# Ecdysis
+```
+    ______         __           _     
+   / ____/________/ /_  _______(_)____
+  / __/ / ___/ __  / / / / ___/ / ___/
+ / /___/ /__/ /_/ / /_/ (__  ) (__  ) 
+/_____/\___/\__,_/\__, /____/_/____/  
+                 /____/                    
+```
+
+![](ecdysis_demo.png)
 
 A dark Obsidian theme with a retro-terminal aesthetic, built around neon color on near-black and a pixel-game typographic identity.
 
