@@ -322,30 +322,6 @@ s, del, .cm-strikethrough {
 
 
 /* ============================================================
-   LINKS
-   ============================================================ */
-
-.markdown-rendered a.internal-link,
-.markdown-rendered a.external-link {
-  color: var(--clr-magenta);
-  text-decoration: underline rgba(223, 64, 254, 0.45);
-  text-underline-offset: 3px;
-}
-
-.markdown-rendered a.internal-link:hover,
-.markdown-rendered a.external-link:hover {
-  color: #e96aff;
-  text-decoration: underline #e96aff;
-  text-shadow: 0 0 8px rgba(223, 64, 254, 0.45);
-}
-
-/* Unresolved link */
-.markdown-rendered a.is-unresolved {
-  color: rgba(223, 64, 254, 0.45);
-}
-
-
-/* ============================================================
    CALLOUTS
    ============================================================ */
 
