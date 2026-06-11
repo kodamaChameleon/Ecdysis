@@ -7,7 +7,7 @@
                  /____/                    
 ```
 
-![](ecdysis_demo.png)
+![](screenshot.png)
 
 A dark Obsidian theme with a retro-terminal aesthetic, built around neon color on near-black and a pixel-game typographic identity.
 
